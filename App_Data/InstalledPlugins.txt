@@ -1,0 +1,4 @@
+Payments.PayPalStandard
+Widgets.NivoSlider
+Shipping.ByWeight
+ThemeHelper.Furniture

@@ -1,0 +1,2 @@
+DataProvider: sqlserver
+DataConnectionString: Data Source=i5id74sus8.database.windows.net;Initial Catalog=Clockcentre;Integrated Security=False;Persist Security Info=False;User ID=Clockcentre;Password=C!0ckc3ntr3;MultipleActiveResultSets=True
