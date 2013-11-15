@@ -62,7 +62,7 @@ input[type="text"]:disabled{background:none repeat scroll 0 0 #FFF;}
 .header .ico-cart:hover *,.header .ico-wishlist:hover *{text-decoration:underline;cursor:pointer;}
 .header .ico-cart span,.header .ico-wishlist span{float:left;}
 .header .ico-wishlist .wishlist-qty{margin-left: 4px}
-.header-logo{margin-top:5px;float:left;text-align:left;}
+.header-logo{margin-top:5px;float:left;text-align:left;width: 300px;}
 a.logo{background:url("images/logo.png") no-repeat scroll 0 0 transparent;display:block;width:263px;height:69px;text-decoration:none;}
 .header-selectors-wrapper{text-align:right;float:right;width: 600px;margin-top: 7px;zoom:1}
 .header-selectors-wrapper:after{content:".";display:block;clear:both;height:0;font-size:0;line-height:0;visibility:hidden;}
@@ -90,7 +90,7 @@ ul.language-list{display:inline;line-height:25px;}
 ul.language-list li{list-style:none;display:inline;padding:0 5px;float:left;}
 ul.language-list li .selected{border:solid 1px #ccc!important;}
 ul.language-list li:hover{cursor:pointer;}
-.header-links-wrapper{position:relative;float:right;text-align:right;width: 600px}
+.header-links-wrapper{margin-top:5px;position:relative;float:right;text-align:right;width: 600px}
 .header-links{float:right;display:inline-table;}
 .header-links .divider{ border-left: 1px solid #e4e4e4;height: 20px;margin: 0;padding: 0;}
 .header-links ul{padding:4px 0;height: 20px;margin:0;float:left;}
@@ -101,6 +101,9 @@ ul.language-list li:hover{cursor:pointer;}
 .header-links .call {float: left;font-size: 16px;font-weight: bold;margin-left: 20px;margin-top: 5px;max-width: 265px;white-space: nowrap;}
 .header-links .call .message {float: left;color: #655c51;text-transform: uppercase;}
 .header-links .call .phone {float: left;color: #bbb908;}
+.call {float: left;font-size: 16px;font-weight: bold;margin-top: 5px;max-width: 265px;white-space: nowrap;}
+.call .message {float: left;color: #655c51;text-transform: uppercase;}
+.call .phone {float: left;color: #bbb908;}
 .admin-header-links{padding:5px;margin-bottom:-15px; text-align:center;}
 .admin-header-links .administration{font-weight:bold;}
 .admin-header-links .impersonate{display:block; color:#E44097; margin-bottom:10px;}
